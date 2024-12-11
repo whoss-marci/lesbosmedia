@@ -1,0 +1,278 @@
+body{
+    background-color: #F6FFE5;
+    margin: 0;
+}
+
+.conteudo{
+    margin: 0.1em;
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+    border: 1px solid #5E1C73;
+    background-color: #5E1C73;
+    color: aliceblue;
+    padding: 12px;
+
+}
+
+.conteudo p{
+    margin-left: 3%;
+}
+
+.conteudo p span{
+    padding-left: 12em;
+}
+
+.carrossel1 div img{
+    max-height: 200px;
+    max-width: 150px;
+}
+
+.carrossel1{
+    display: flex;
+    flex-direction: inherit;
+    gap: 0.5em;    
+    margin-top: 470px;
+}
+
+.carrossel1 img{
+ border: 2px;
+ width: 100%;
+ border: 1px solid #728350;
+}
+
+
+
+.central{
+    height: 700px;
+    background-image: url(imgs/fundoo.svg);
+    background-repeat: repeat;
+    background-size: 1000px;
+    margin-top: 80px;
+    padding-top: 500px;
+    margin-bottom: 800px;
+}
+
+.carrossel1 div{
+    align-items: center;
+    align-content: inherit;
+    flex: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.carrossel1 p {
+    font-size: medium;
+}
+
+
+
+/*nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+  
+nav li {
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a{
+    gap: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-right: 200px; /* Adiciona espaço entre os links} */
+ 
+nav{
+    height: 55px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: 100%;
+    background-color: #728350;
+    color: aliceblue;
+    padding: 20px 0;
+    margin-top: 20px;
+    /* transition: background-color 0.3s ease; */
+}
+nav img{
+    align-content: center;
+    size: 18px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 0 5%;
+}
+    
+nav ul li a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.redes{
+    display: flex;
+    /* height: 700px; */
+    background-image: url(imgs/ATIVOVERDE.svg);
+    background-repeat: repeat;
+    background-size: 400px;
+    background-color: #899c63;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    /* flex-direction: row-reverse; */
+}
+
+.redes #insta{
+    height: 2em;
+    width: 12em;
+    background-color: #2a582a;
+    color: #6ba543;
+    border-radius: 2em;
+    border: 1px;
+    border-color: #cb81e2;
+}
+
+.redes #insta:hover{
+    background-color: #cb81e2;
+    color: #5E1C73;
+
+}
+
+h3{
+    font-family: acme-gothic, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p{
+    font-family: acme-gothic, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.redes #insta{
+    font-family: acme-gothic, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.redes .print img{
+    height: 22em;
+    align-content: space-around;
+    
+}
+.redes .button img{
+    height: 2em;
+    text-decoration: none;
+}
+
+.redes .button{
+    display: inherit;
+    margin-top: 44%;
+    margin-left: 80em;
+    margin-right: 2%;
+}
+
+.redes .button .btn{
+    margin-left: 20%;
+}
+
+.jornal{
+    display: flex;
+    background-color: none;
+    margin-top: 20%;
+    height: 700px;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    margin-bottom: 75%;
+    content: center;
+}
+
+.jornal div p{
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    align-self: start;
+}
+
+.jornal div h2{
+    font-size: medium;
+}
+
+.jornal div img{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+}
+
+.text{
+    padding-right: 50%;
+}
+
+.materias div{
+    display: flex;
+    margin: 2em;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.materias{
+    height: 20em;
+}
+
+.materias .text{
+    display: grid;
+}
+
+.edicoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50%;
+    padding: 2em;
+    align-content: center;
+}
+
+.edicoes div{
+    background-image: url(imgs/The\ art\ of\ magazine\ covers_\ 20\ incredible\ examples\ from\ 2012.jpg);
+    background-size: cover;
+    color: aliceblue;
+    margin: 1em;
+    display: flex;
+    gap: 0.5em;   
+    height: 300px;
+    width: 180px;
+}
+
+footer{
+    display: flex;
+    align-content: flex-end;
+}
